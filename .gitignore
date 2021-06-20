@@ -1,2 +1,5 @@
 *.pptx
 *.pdf
+local-GPU/DCGAN/dataset/*
+local-GPU/GAN/dataset/*
+*.zip

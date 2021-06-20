@@ -1,0 +1,236 @@
+
+['os', 'sys', 'wandb', 'workspace_dir']
+Downloading...
+From: https://drive.google.com/uc?id=1-0BZidM2MmfususCIFjdATw40MGSP-1q
+To: /home/icmr/Documents/yuko29/GPU_final_project/GAN/landscape_data.zip
+91.5MB [00:00, 114MB/s]
+['os', 'sys', 'wandb', 'workspace_dir']
+['os', 'sys', 'wandb', 'workspace_dir']
+Generator(
+  (model): Sequential(
+    (0): Linear(in_features=100, out_features=128, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Linear(in_features=128, out_features=256, bias=True)
+    (3): BatchNorm1d(256, eps=0.8, momentum=0.1, affine=True, track_running_stats=True)
+    (4): LeakyReLU(negative_slope=0.2, inplace=True)
+    (5): Linear(in_features=256, out_features=512, bias=True)
+    (6): BatchNorm1d(512, eps=0.8, momentum=0.1, affine=True, track_running_stats=True)
+    (7): LeakyReLU(negative_slope=0.2, inplace=True)
+    (8): Linear(in_features=512, out_features=1024, bias=True)
+    (9): BatchNorm1d(1024, eps=0.8, momentum=0.1, affine=True, track_running_stats=True)
+    (10): LeakyReLU(negative_slope=0.2, inplace=True)
+    (11): Linear(in_features=1024, out_features=12288, bias=True)
+    (12): Tanh()
+  )
+)
+Discriminator(
+  (main): Sequential(
+    (0): Linear(in_features=12288, out_features=512, bias=True)
+    (1): LeakyReLU(negative_slope=0.2, inplace=True)
+    (2): Linear(in_features=512, out_features=256, bias=True)
+    (3): LeakyReLU(negative_slope=0.2, inplace=True)
+    (4): Linear(in_features=256, out_features=1, bias=True)
+    (5): Sigmoid()
+  )
+)
+Starting Training Loop...
+ | Save some samples to ./logs/Epoch_001.jpg.
+ | Save some samples to ./logs/Epoch_002.jpg.
+ | Save some samples to ./logs/Epoch_003.jpg.
+ | Save some samples to ./logs/Epoch_004.jpg.
+ | Save some samples to ./logs/Epoch_005.jpg.
+ | Save some samples to ./logs/Epoch_006.jpg.
+ | Save some samples to ./logs/Epoch_007.jpg.
+ | Save some samples to ./logs/Epoch_008.jpg.
+ | Save some samples to ./logs/Epoch_009.jpg.
+ | Save some samples to ./logs/Epoch_010.jpg.
+ | Save some samples to ./logs/Epoch_011.jpg.
+ | Save some samples to ./logs/Epoch_012.jpg.
+ | Save some samples to ./logs/Epoch_013.jpg.
+ | Save some samples to ./logs/Epoch_014.jpg.
+ | Save some samples to ./logs/Epoch_015.jpg.
+ | Save some samples to ./logs/Epoch_016.jpg.
+ | Save some samples to ./logs/Epoch_017.jpg.
+ | Save some samples to ./logs/Epoch_018.jpg.
+ | Save some samples to ./logs/Epoch_019.jpg.
+ | Save some samples to ./logs/Epoch_020.jpg.
+ | Save some samples to ./logs/Epoch_021.jpg.
+ | Save some samples to ./logs/Epoch_022.jpg.
+ | Save some samples to ./logs/Epoch_023.jpg.
+ | Save some samples to ./logs/Epoch_024.jpg.
+ | Save some samples to ./logs/Epoch_025.jpg.
+ | Save some samples to ./logs/Epoch_026.jpg.
+ | Save some samples to ./logs/Epoch_027.jpg.
+ | Save some samples to ./logs/Epoch_028.jpg.
+ | Save some samples to ./logs/Epoch_029.jpg.
+ | Save some samples to ./logs/Epoch_030.jpg.
+ | Save some samples to ./logs/Epoch_031.jpg.
+ | Save some samples to ./logs/Epoch_032.jpg.
+ | Save some samples to ./logs/Epoch_033.jpg.
+ | Save some samples to ./logs/Epoch_034.jpg.
+ | Save some samples to ./logs/Epoch_035.jpg.
+ | Save some samples to ./logs/Epoch_036.jpg.
+ | Save some samples to ./logs/Epoch_037.jpg.
+ | Save some samples to ./logs/Epoch_038.jpg.
+ | Save some samples to ./logs/Epoch_039.jpg.
+ | Save some samples to ./logs/Epoch_040.jpg.
+ | Save some samples to ./logs/Epoch_041.jpg.
+ | Save some samples to ./logs/Epoch_042.jpg.
+ | Save some samples to ./logs/Epoch_043.jpg.
+ | Save some samples to ./logs/Epoch_044.jpg.
+ | Save some samples to ./logs/Epoch_045.jpg.
+ | Save some samples to ./logs/Epoch_046.jpg.
+ | Save some samples to ./logs/Epoch_047.jpg.
+ | Save some samples to ./logs/Epoch_048.jpg.
+ | Save some samples to ./logs/Epoch_049.jpg.
+ | Save some samples to ./logs/Epoch_050.jpg.
+ | Save some samples to ./logs/Epoch_051.jpg.
+ | Save some samples to ./logs/Epoch_052.jpg.
+ | Save some samples to ./logs/Epoch_053.jpg.
+ | Save some samples to ./logs/Epoch_054.jpg.
+ | Save some samples to ./logs/Epoch_055.jpg.
+ | Save some samples to ./logs/Epoch_056.jpg.
+ | Save some samples to ./logs/Epoch_057.jpg.
+ | Save some samples to ./logs/Epoch_058.jpg.
+ | Save some samples to ./logs/Epoch_059.jpg.
+ | Save some samples to ./logs/Epoch_060.jpg.
+ | Save some samples to ./logs/Epoch_061.jpg.
+ | Save some samples to ./logs/Epoch_062.jpg.
+ | Save some samples to ./logs/Epoch_063.jpg.
+ | Save some samples to ./logs/Epoch_064.jpg.
+ | Save some samples to ./logs/Epoch_065.jpg.
+ | Save some samples to ./logs/Epoch_066.jpg.
+ | Save some samples to ./logs/Epoch_067.jpg.
+ | Save some samples to ./logs/Epoch_068.jpg.
+ | Save some samples to ./logs/Epoch_069.jpg.
+ | Save some samples to ./logs/Epoch_070.jpg.
+ | Save some samples to ./logs/Epoch_071.jpg.
+ | Save some samples to ./logs/Epoch_072.jpg.
+ | Save some samples to ./logs/Epoch_073.jpg.
+ | Save some samples to ./logs/Epoch_074.jpg.
+ | Save some samples to ./logs/Epoch_075.jpg.
+ | Save some samples to ./logs/Epoch_076.jpg.
+ | Save some samples to ./logs/Epoch_077.jpg.
+ | Save some samples to ./logs/Epoch_078.jpg.
+ | Save some samples to ./logs/Epoch_079.jpg.
+ | Save some samples to ./logs/Epoch_080.jpg.
+ | Save some samples to ./logs/Epoch_081.jpg.
+ | Save some samples to ./logs/Epoch_082.jpg.
+ | Save some samples to ./logs/Epoch_083.jpg.
+ | Save some samples to ./logs/Epoch_084.jpg.
+ | Save some samples to ./logs/Epoch_085.jpg.
+ | Save some samples to ./logs/Epoch_086.jpg.
+ | Save some samples to ./logs/Epoch_087.jpg.
+ | Save some samples to ./logs/Epoch_088.jpg.
+ | Save some samples to ./logs/Epoch_089.jpg.
+ | Save some samples to ./logs/Epoch_090.jpg.
+ | Save some samples to ./logs/Epoch_091.jpg.
+ | Save some samples to ./logs/Epoch_092.jpg.
+ | Save some samples to ./logs/Epoch_093.jpg.
+ | Save some samples to ./logs/Epoch_094.jpg.
+ | Save some samples to ./logs/Epoch_095.jpg.
+ | Save some samples to ./logs/Epoch_096.jpg.
+ | Save some samples to ./logs/Epoch_097.jpg.
+ | Save some samples to ./logs/Epoch_098.jpg.
+ | Save some samples to ./logs/Epoch_099.jpg.
+ | Save some samples to ./logs/Epoch_100.jpg.
+ | Save some samples to ./logs/Epoch_101.jpg.
+ | Save some samples to ./logs/Epoch_102.jpg.
+ | Save some samples to ./logs/Epoch_103.jpg.
+ | Save some samples to ./logs/Epoch_104.jpg.
+ | Save some samples to ./logs/Epoch_105.jpg.
+ | Save some samples to ./logs/Epoch_106.jpg.
+ | Save some samples to ./logs/Epoch_107.jpg.
+ | Save some samples to ./logs/Epoch_108.jpg.
+ | Save some samples to ./logs/Epoch_109.jpg.
+ | Save some samples to ./logs/Epoch_110.jpg.
+ | Save some samples to ./logs/Epoch_111.jpg.
+ | Save some samples to ./logs/Epoch_112.jpg.
+ | Save some samples to ./logs/Epoch_113.jpg.
+ | Save some samples to ./logs/Epoch_114.jpg.
+ | Save some samples to ./logs/Epoch_115.jpg.
+ | Save some samples to ./logs/Epoch_116.jpg.
+ | Save some samples to ./logs/Epoch_117.jpg.
+ | Save some samples to ./logs/Epoch_118.jpg.
+ | Save some samples to ./logs/Epoch_119.jpg.
+ | Save some samples to ./logs/Epoch_120.jpg.
+ | Save some samples to ./logs/Epoch_121.jpg.
+ | Save some samples to ./logs/Epoch_122.jpg.
+ | Save some samples to ./logs/Epoch_123.jpg.
+ | Save some samples to ./logs/Epoch_124.jpg.
+ | Save some samples to ./logs/Epoch_125.jpg.
+ | Save some samples to ./logs/Epoch_126.jpg.
+ | Save some samples to ./logs/Epoch_127.jpg.
+ | Save some samples to ./logs/Epoch_128.jpg.
+ | Save some samples to ./logs/Epoch_129.jpg.
+ | Save some samples to ./logs/Epoch_130.jpg.
+ | Save some samples to ./logs/Epoch_131.jpg.
+ | Save some samples to ./logs/Epoch_132.jpg.
+ | Save some samples to ./logs/Epoch_133.jpg.
+ | Save some samples to ./logs/Epoch_134.jpg.
+ | Save some samples to ./logs/Epoch_135.jpg.
+ | Save some samples to ./logs/Epoch_136.jpg.
+ | Save some samples to ./logs/Epoch_137.jpg.
+ | Save some samples to ./logs/Epoch_138.jpg.
+ | Save some samples to ./logs/Epoch_139.jpg.
+ | Save some samples to ./logs/Epoch_140.jpg.
+ | Save some samples to ./logs/Epoch_141.jpg.
+ | Save some samples to ./logs/Epoch_142.jpg.
+ | Save some samples to ./logs/Epoch_143.jpg.
+ | Save some samples to ./logs/Epoch_144.jpg.
+ | Save some samples to ./logs/Epoch_145.jpg.
+ | Save some samples to ./logs/Epoch_146.jpg.
+ | Save some samples to ./logs/Epoch_147.jpg.
+ | Save some samples to ./logs/Epoch_148.jpg.
+ | Save some samples to ./logs/Epoch_149.jpg.
+ | Save some samples to ./logs/Epoch_150.jpg.
+ | Save some samples to ./logs/Epoch_151.jpg.
+ | Save some samples to ./logs/Epoch_152.jpg.
+ | Save some samples to ./logs/Epoch_153.jpg.
+ | Save some samples to ./logs/Epoch_154.jpg.
+ | Save some samples to ./logs/Epoch_155.jpg.
+ | Save some samples to ./logs/Epoch_156.jpg.
+ | Save some samples to ./logs/Epoch_157.jpg.
+ | Save some samples to ./logs/Epoch_158.jpg.
+ | Save some samples to ./logs/Epoch_159.jpg.
+ | Save some samples to ./logs/Epoch_160.jpg.
+ | Save some samples to ./logs/Epoch_161.jpg.
+ | Save some samples to ./logs/Epoch_162.jpg.
+ | Save some samples to ./logs/Epoch_163.jpg.
+ | Save some samples to ./logs/Epoch_164.jpg.
+ | Save some samples to ./logs/Epoch_165.jpg.
+ | Save some samples to ./logs/Epoch_166.jpg.
+ | Save some samples to ./logs/Epoch_167.jpg.
+ | Save some samples to ./logs/Epoch_168.jpg.
+ | Save some samples to ./logs/Epoch_169.jpg.
+ | Save some samples to ./logs/Epoch_170.jpg.
+ | Save some samples to ./logs/Epoch_171.jpg.
+ | Save some samples to ./logs/Epoch_172.jpg.
+ | Save some samples to ./logs/Epoch_173.jpg.
+ | Save some samples to ./logs/Epoch_174.jpg.
+ | Save some samples to ./logs/Epoch_175.jpg.
+ | Save some samples to ./logs/Epoch_176.jpg.
+ | Save some samples to ./logs/Epoch_177.jpg.
+ | Save some samples to ./logs/Epoch_178.jpg.
+ | Save some samples to ./logs/Epoch_179.jpg.
+ | Save some samples to ./logs/Epoch_180.jpg.
+ | Save some samples to ./logs/Epoch_181.jpg.
+ | Save some samples to ./logs/Epoch_182.jpg.
+ | Save some samples to ./logs/Epoch_183.jpg.
+ | Save some samples to ./logs/Epoch_184.jpg.
+ | Save some samples to ./logs/Epoch_185.jpg.
+ | Save some samples to ./logs/Epoch_186.jpg.
+ | Save some samples to ./logs/Epoch_187.jpg.
+ | Save some samples to ./logs/Epoch_188.jpg.
+ | Save some samples to ./logs/Epoch_189.jpg.
+ | Save some samples to ./logs/Epoch_190.jpg.
+ | Save some samples to ./logs/Epoch_191.jpg.
+ | Save some samples to ./logs/Epoch_192.jpg.
+ | Save some samples to ./logs/Epoch_193.jpg.
+ | Save some samples to ./logs/Epoch_194.jpg.
+ | Save some samples to ./logs/Epoch_195.jpg.
+ | Save some samples to ./logs/Epoch_196.jpg.
+ | Save some samples to ./logs/Epoch_197.jpg.
+ | Save some samples to ./logs/Epoch_198.jpg.
+ | Save some samples to ./logs/Epoch_199.jpg.
+ | Save some samples to ./logs/Epoch_200.jpg.

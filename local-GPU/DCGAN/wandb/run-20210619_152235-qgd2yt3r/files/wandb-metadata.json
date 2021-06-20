@@ -1,0 +1,34 @@
+{
+    "os": "Linux-5.8.0-53-generic-x86_64-with-glibc2.29",
+    "python": "3.8.5",
+    "heartbeatAt": "2021-06-19T07:22:36.735284",
+    "startedAt": "2021-06-19T07:22:35.170111",
+    "docker": null,
+    "gpu": "GeForce RTX 3070",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9043",
+        "--control=9041",
+        "--hb=9040",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"37dfca27-1a3d-4c6d-881d-5e0b3723613e\"",
+        "--shell=9042",
+        "--transport=\"tcp\"",
+        "--iopub=9044",
+        "--f=/tmp/tmp-4004167IXLHxEdUWw9j.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/yuko29/GPU_final_project.git",
+        "commit": "bb8f03f86b82e7122c317a1d413eba5fede9ad0a"
+    },
+    "email": "encdr81@gmail.com",
+    "root": "/home/icmr/Documents/yuko29/GPU_final_project",
+    "host": "ttyeh-pc36",
+    "username": "icmr",
+    "executable": "/bin/python3"
+}

@@ -1,0 +1,491 @@
+2021-06-19 15:22:35,578 INFO    MainThread:4004568 [internal.py:wandb_internal():88] W&B internal server running at pid: 4004568, started at: 2021-06-19 15:22:35.578615
+2021-06-19 15:22:35,579 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: check_version
+2021-06-19 15:22:35,579 INFO    WriterThread:4004568 [datastore.py:open_for_write():80] open: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/run-qgd2yt3r.wandb
+2021-06-19 15:22:35,581 DEBUG   SenderThread:4004568 [sender.py:send():179] send: header
+2021-06-19 15:22:35,581 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: check_version
+2021-06-19 15:22:35,697 DEBUG   SenderThread:4004568 [sender.py:send():179] send: run
+2021-06-19 15:22:35,918 INFO    SenderThread:4004568 [dir_watcher.py:__init__():168] watching files in: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files
+2021-06-19 15:22:35,918 INFO    SenderThread:4004568 [sender.py:_start_run_threads():704] run started: qgd2yt3r with start time 1624087355
+2021-06-19 15:22:35,918 DEBUG   SenderThread:4004568 [sender.py:send():179] send: summary
+2021-06-19 15:22:35,918 INFO    SenderThread:4004568 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-19 15:22:35,918 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: run_start
+2021-06-19 15:22:36,735 DEBUG   HandlerThread:4004568 [meta.py:__init__():39] meta init
+2021-06-19 15:22:36,735 DEBUG   HandlerThread:4004568 [meta.py:__init__():53] meta init done
+2021-06-19 15:22:36,735 DEBUG   HandlerThread:4004568 [meta.py:probe():210] probe
+2021-06-19 15:22:36,740 DEBUG   HandlerThread:4004568 [meta.py:_setup_git():200] setup git
+2021-06-19 15:22:36,755 DEBUG   HandlerThread:4004568 [meta.py:_setup_git():207] setup git done
+2021-06-19 15:22:36,755 DEBUG   HandlerThread:4004568 [meta.py:_save_pip():57] save pip
+2021-06-19 15:22:36,755 DEBUG   HandlerThread:4004568 [meta.py:_save_pip():71] save pip done
+2021-06-19 15:22:36,755 DEBUG   HandlerThread:4004568 [meta.py:probe():252] probe done
+2021-06-19 15:22:36,757 DEBUG   SenderThread:4004568 [sender.py:send():179] send: files
+2021-06-19 15:22:36,758 INFO    SenderThread:4004568 [sender.py:_save_file():829] saving file wandb-metadata.json with policy now
+2021-06-19 15:22:36,767 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:22:36,767 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:22:36,769 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:22:36,769 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:22:36,919 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_created():216] file/dir created: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/wandb-summary.json
+2021-06-19 15:22:36,919 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_created():216] file/dir created: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:22:36,919 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_created():216] file/dir created: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/wandb-metadata.json
+2021-06-19 15:22:36,919 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_created():216] file/dir created: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/requirements.txt
+2021-06-19 15:22:36,952 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:22:37,281 INFO    Thread-11 :4004568 [upload_job.py:push():133] Uploaded file /tmp/tmpmbkhkjw8wandb/2zanfs9y-wandb-metadata.json
+2021-06-19 15:22:42,192 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:22:42,192 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:22:42,193 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:22:42,193 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:22:42,215 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:22:42,920 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:22:42,921 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:22:43,966 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:22:43,966 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:22:44,071 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:22:44,924 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:22:50,964 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:22:50,964 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:22:51,953 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:22:51,953 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:22:54,333 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:22:54,334 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:22:54,432 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:22:54,930 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:23:03,931 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:23:03,931 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:23:05,111 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:23:05,111 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:23:05,157 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:23:07,142 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:23:07,143 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:23:12,426 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:23:12,426 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:23:14,218 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:23:14,218 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:23:14,253 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:23:22,326 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:23:22,326 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:23:25,063 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:23:25,063 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:23:26,057 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:23:26,057 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:23:26,090 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:23:32,363 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:23:32,363 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:23:32,435 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:23:32,435 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:23:32,488 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:23:37,515 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:23:37,515 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:23:52,703 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:23:52,703 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:23:57,975 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:23:57,975 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:23:57,976 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:23:57,976 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:23:57,998 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:00,950 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:24:02,699 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:02,699 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:02,699 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:02,699 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:02,730 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:02,730 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:02,730 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:02,730 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:02,755 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:02,755 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:04,952 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:24:07,889 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:24:07,889 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:24:09,876 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:09,876 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:09,877 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:09,877 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:09,901 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:10,239 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:10,239 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:10,240 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:10,240 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:10,264 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:10,954 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:24:16,129 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:16,129 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:16,130 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:16,130 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:16,171 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:16,207 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:16,207 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:16,207 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:16,207 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:16,230 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:16,264 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:16,264 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:16,265 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:16,265 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:16,287 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:16,680 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:16,680 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:16,730 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:16,731 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:16,842 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:18,958 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:24:23,088 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:24:23,088 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:24:23,988 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:23,988 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:26,431 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:26,431 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:26,530 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:29,295 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:29,295 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:29,296 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:29,296 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:29,318 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:30,962 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:24:35,923 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:35,923 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:35,924 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:35,924 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:35,948 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:36,163 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:36,163 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:36,164 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:36,165 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:36,205 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:36,523 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:36,523 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:36,523 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:36,523 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:36,567 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:36,966 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:24:37,676 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:37,676 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:37,676 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:37,677 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:37,701 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:38,285 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:24:38,285 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:24:38,966 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:24:49,900 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:49,900 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:49,901 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:49,901 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:49,929 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:49,929 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:49,929 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:49,929 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:49,929 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:49,956 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:49,962 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:49,962 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:49,962 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:49,963 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:49,989 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:50,003 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:50,003 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:50,003 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:50,003 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:50,027 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:50,049 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:50,049 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:50,049 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:50,049 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:50,075 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:50,087 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:50,087 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:50,087 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:50,087 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:50,113 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:50,872 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:50,872 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:50,873 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:50,873 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:50,912 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:50,970 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:24:52,970 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:24:53,472 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:24:53,472 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:24:57,890 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:57,890 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:57,891 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:57,891 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:57,927 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:58,817 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:58,817 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:58,817 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:58,817 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:58,844 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:58,973 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:24:59,427 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:59,428 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:59,479 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:59,479 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:24:59,587 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:24:59,888 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:24:59,889 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:24:59,919 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:24:59,919 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:25:00,026 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:25:00,346 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:25:00,346 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:25:00,347 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:25:00,348 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:25:00,372 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:25:00,606 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:25:00,606 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:25:00,973 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:25:02,974 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:25:08,660 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:25:08,660 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:25:14,976 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:25:23,850 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:25:23,850 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:25:26,978 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:25:28,859 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:25:38,981 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:25:39,039 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:25:39,039 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:25:50,983 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:25:54,226 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:25:54,226 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:25:59,083 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:26:02,985 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:26:09,412 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:26:09,412 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:26:14,988 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:26:24,599 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:26:24,599 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:26:26,990 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:26:29,318 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:26:38,993 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:26:39,784 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:26:39,784 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:26:50,995 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:26:54,968 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:26:54,968 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:26:59,557 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:27:02,998 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:27:10,155 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:27:10,155 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:27:15,000 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:27:25,343 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:27:25,343 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:27:27,002 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:27:29,795 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:27:39,005 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:27:40,527 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:27:40,528 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:27:51,007 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:27:54,977 WARNING MainThread:4004568 [internal.py:wandb_internal():147] Internal process interrupt: 1
+2021-06-19 15:27:55,053 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:27:55,053 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:27:55,091 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:27:55,091 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:27:55,091 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:27:55,091 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:27:55,115 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:27:55,115 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:27:55,115 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:27:55,115 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:27:55,137 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:27:55,137 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:27:55,137 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:27:55,137 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:27:55,159 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:27:55,159 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:27:55,159 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:27:55,159 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:27:55,181 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:27:55,181 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:27:55,181 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:27:55,181 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:27:55,203 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:27:55,203 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:27:55,203 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:27:55,203 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:27:55,225 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:27:55,225 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:27:55,225 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:27:55,225 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:27:55,246 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:27:55,247 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:27:55,247 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:27:55,247 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:27:55,269 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:27:55,269 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:27:55,269 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:27:55,269 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:27:55,270 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:27:55,270 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:27:55,270 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:27:55,270 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:27:55,270 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:27:55,717 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:27:55,717 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:27:57,010 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:27:59,743 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:27:59,744 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:27:59,745 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:27:59,745 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:27:59,791 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:28:01,012 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:28:06,908 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:28:06,908 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:28:06,908 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:28:06,908 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:28:06,935 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:28:09,015 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:28:10,511 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:28:10,511 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:28:10,511 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:28:10,511 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:28:10,536 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:28:10,906 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:28:10,907 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:28:11,979 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:28:11,979 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:28:11,980 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:28:11,980 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:28:12,010 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:28:13,016 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:28:13,669 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:28:13,669 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:28:13,669 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:28:13,669 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:28:13,693 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:28:13,749 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:28:13,749 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:28:13,749 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:28:13,749 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:28:13,772 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:28:15,018 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:28:18,372 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:28:18,372 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:28:18,372 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:28:18,372 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:28:18,399 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:28:20,153 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:28:20,154 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:28:20,154 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:28:20,154 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:28:20,177 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:28:21,020 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:28:21,681 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:28:21,681 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:28:21,682 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:28:21,682 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:28:21,709 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:28:23,021 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:28:24,568 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:28:24,568 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:28:24,568 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:28:24,568 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:28:24,593 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:28:26,110 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:28:26,111 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:28:27,022 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:28:27,424 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:28:27,425 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:28:27,425 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:28:27,425 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:28:27,451 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:28:29,023 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:28:41,300 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:28:41,300 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:28:49,549 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:28:49,549 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:28:49,549 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:28:49,549 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:28:49,572 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:28:51,031 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:28:54,395 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:28:54,395 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:28:54,395 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:28:54,395 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:28:54,420 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:28:56,493 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:28:56,493 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:28:57,032 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:29:00,965 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:29:00,965 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:29:00,966 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:29:00,966 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:29:00,989 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:29:03,036 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:29:05,978 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:29:05,978 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:29:05,979 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:29:05,979 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:29:06,005 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:29:06,035 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:29:06,035 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:29:06,036 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:29:06,036 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:29:06,064 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:29:07,037 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:29:11,678 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:29:11,679 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:29:12,442 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:29:12,442 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:29:12,443 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:29:12,443 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:29:12,469 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:29:15,039 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:29:16,068 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:29:16,068 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:29:16,068 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:29:16,068 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:29:16,093 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:29:17,039 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:29:17,994 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:29:17,995 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:29:17,995 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:29:17,995 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:29:18,021 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:29:19,040 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:29:19,566 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:29:19,566 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:29:19,566 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:29:19,566 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:29:19,593 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:29:20,859 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:29:20,859 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:29:20,860 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:29:20,860 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:29:20,887 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:29:21,041 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:29:23,042 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:29:25,204 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:29:25,204 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:29:25,204 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:29:25,204 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:29:25,230 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:29:26,893 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:29:26,893 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:29:27,044 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:29:28,755 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:29:28,756 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:29:28,756 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:29:28,756 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:29:28,782 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:29:31,046 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:29:42,081 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-19 15:29:42,081 DEBUG   SenderThread:4004568 [sender.py:send_request():193] send_request: stop_status
+2021-06-19 15:29:46,651 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:29:46,651 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:29:46,651 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:29:46,651 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:29:46,675 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:29:49,052 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:29:51,342 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:29:51,343 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:29:51,343 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:29:51,343 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:29:51,371 DEBUG   SenderThread:4004568 [sender.py:send():179] send: stats
+2021-06-19 15:29:53,054 INFO    Thread-8  :4004568 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/icmr/Documents/yuko29/GPU_final_project/DCGAN/wandb/run-20210619_152235-qgd2yt3r/files/output.log
+2021-06-19 15:29:53,400 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: resume
+2021-06-19 15:29:53,400 INFO    HandlerThread:4004568 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-06-19 15:29:53,401 DEBUG   HandlerThread:4004568 [handler.py:handle_request():124] handle_request: pause
+2021-06-19 15:29:53,401 INFO    HandlerThread:4004568 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-06-19 15:29:53,401 WARNING MainThread:4004568 [internal.py:wandb_internal():147] Internal process interrupt: 2
+2021-06-19 15:29:53,401 ERROR   MainThread:4004568 [internal.py:wandb_internal():150] Internal process interrupted.
+2021-06-19 15:29:53,428 INFO    HandlerThread:4004568 [handler.py:finish():638] shutting down handler
+2021-06-19 15:29:53,601 INFO    MainThread:4004568 [internal.py:handle_exit():78] Internal process exited
